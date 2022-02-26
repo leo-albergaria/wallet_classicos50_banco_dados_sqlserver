@@ -1,4 +1,3 @@
-
 -- Criar DataBase Aulas50
 IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'Aulas50')
     BEGIN
