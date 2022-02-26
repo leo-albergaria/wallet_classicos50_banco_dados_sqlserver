@@ -111,7 +111,7 @@ SELECT * FROM Transacoes;
 -- Para deletar todoas as informações da Tabela.
 DELETE FROM PessoaFisica
 -- Para deletar o que for necessário dentro da expressão.
-DELETE FROM PessoaFisica WHERE (Expressao)
+-- DELETE FROM PessoaFisica WHERE (Expressao)
 
 -- Para zerar o contador automático da chave primária.
 DBCC CHECKIDENT('[PessoaFisica]', RESEED, 0)
@@ -132,5 +132,7 @@ UPDATE PessoaFisica
     WHERE Id = 4;
 
 SELECT * FROM PessoaFisica 
+
+
 
 
